@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 450px;
+  display: flex;
+}
+
+img {
+  width: 150px;
+}
+
+p {
+  flex: 1;
+  margin: 0;
+  padding: .2rem;
+  font-size: 1.3rem;
+}

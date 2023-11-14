@@ -1,0 +1,23 @@
+{
+  "name": "Creepers Attack",
+  "version": "1.0.0",
+  "description": "Fun Creeper extension",
+  "manifest_version": 3,
+  "author": "Adam",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Creeper attack"
+  },
+  "content_scripts": [
+    {
+      "js": ["creeper.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["images/*"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
